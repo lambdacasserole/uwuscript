@@ -16,7 +16,7 @@ uwu uwu uwu owo >w> owo uwu uwu uwu owo nwn nwn nwn nwn nwn nwn owo nwn nwn nwn
 nwn nwn nwn nwn nwn owo >w> uwu owo >w> owo *w* Hello world!
 ```
 
-The following table is straight from Wikipedia, but modified for UwuScript:
+The following table is straight from [Wikipedia's table of Brainfuck commands](https://en.wikipedia.org/wiki/Brainfuck#Commands), but modified to show each command's UwuScript equivalent:
 
 |  UwuScript  |  Brainfuck  | Meaning                                                                                                                                                                           |
 |-------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ The following table is straight from Wikipedia, but modified for UwuScript:
 | `>wo`       | `]`         | If the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching [ command. |
 | `*w*`       | `N/A`       | Denotes a single-line comment.                                                                                                                                                    |
 
-You're essentially manipulating a [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) to produce output. Anything written in Brainfuck is obviously trivial to port to UwuScript.
+You're essentially manipulating a [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) to produce output. Anything written in Brainfuck is obviously trivial to port over.
 
 ## Usage
 
@@ -42,4 +42,4 @@ UwuScript.exe "examples/hello.uwu"
 
 ## Limitations
 
-Random inline text will break the tokenizer, that's why the single-line comment token was added.
+Random inline text will break the tokenizer, that's why the single-line comment token was added. It's easy to change this so you can stick non-instructions wherever you like (like I believe Urban Muller's [original Brainfuck implementation](https://gist.github.com/rdebath/0ca09ec0fdcf3f82478f) does by changing the regular expressions that the tokenizer is initialized with.
