@@ -33,13 +33,14 @@ The following table is straight from [Wikipedia's table of Brainfuck commands](h
 You're essentially manipulating a [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) to produce output. Anything written in Brainfuck is obviously trivial to port over.
 
 ## Usage
-
 Compile the project in Visual Studio, run it like this:
 
 ```
 UwuScript.exe "examples/hello.uwu"
 ```
 
-## Limitations
+## Caveats
+Largely untested and very unoptimized, the Turing machine underlying the language is a very hasty port from the PHP version in [my ancient Brainfony repository](https://github.com/lambdacasserole/brainfony). It's gonna be buggy and slow.
 
+## Limitations
 Random inline text will break the tokenizer, that's why the single-line comment token was added. It's easy to change this so you can stick non-instructions wherever you like (like I believe Urban Muller's [original Brainfuck implementation](https://gist.github.com/rdebath/0ca09ec0fdcf3f82478f) does by changing the regular expressions that the tokenizer is initialized with.
