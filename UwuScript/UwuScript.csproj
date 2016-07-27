@@ -45,6 +45,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="TokenizationException.cs" />
+    <Compile Include="Tokenizer.cs" />
+    <Compile Include="TokenTemplate.cs" />
+    <Compile Include="TokenType.cs" />
+    <Compile Include="TuringMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
