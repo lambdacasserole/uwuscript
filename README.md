@@ -1,6 +1,8 @@
 # UwuScript
 World's first uwu-oriented language.
 
+![Logo](https://github.com/lambdacasserole/uwuscript/raw/master/assets/logo.png)
+
 Saw [a tweet](https://twitter.com/UwyBBQ/status/757959990359523328) from [Uwy](https://github.com/Uwy) and thought it'd be a tasty little meme morsel to actually build with a tokenizer I have lying around.
 
 Basically [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) but with a special token for single-line comments. Here's a hello world program in UwuScript:
@@ -12,7 +14,6 @@ nwn >wo >w> uwu uwu owo >w> uwu owo uwu uwu uwu uwu uwu uwu uwu owo owo uwu uwu
 uwu owo >w> uwu uwu owo <w< <w< uwu uwu uwu uwu uwu uwu uwu uwu uwu uwu uwu uwu 
 uwu uwu uwu owo >w> owo uwu uwu uwu owo nwn nwn nwn nwn nwn nwn owo nwn nwn nwn 
 nwn nwn nwn nwn nwn owo >w> uwu owo >w> owo *w* Hello world!
-
 ```
 
 The following table is straight from Wikipedia, but modified for UwuScript:
