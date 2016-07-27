@@ -3,9 +3,9 @@ World's first uwu-oriented language.
 
 ![Logo](https://github.com/lambdacasserole/uwuscript/raw/master/assets/logo.png)
 
-Saw [a tweet](https://twitter.com/UwyBBQ/status/757959990359523328) from [Uwy](https://github.com/Uwy) and thought it'd be a tasty little meme morsel to actually build with a tokenizer I have lying around.
+Saw [a tweet](https://twitter.com/UwyBBQ/status/757959990359523328) from [Uwy](https://github.com/Uwy) and thought it'd be a tasty little meme morsel to actually build with a tokenizer I have lying around. It's basically [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) but with a special token for single-line comments. If you're looking for the plain old Brainfuck interpreter I wrote in C#, it's called [ByteRibbon](https://github.com/lambdacasserole/byteribbon).
 
-Basically [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) but with a special token for single-line comments. Here's a hello world program in UwuScript:
+Here's a hello world program in UwuScript:
 
 ```
 uwu uwu uwu uwu uwu uwu uwu uwu uwu uwu ow< >w> uwu uwu uwu uwu uwu uwu uwu >w> *w* Comment!
