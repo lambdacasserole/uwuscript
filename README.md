@@ -1,6 +1,12 @@
 # uwuscript
 World's first uwu-oriented language.
 
+Saw [a tweet](https://twitter.com/UwyBBQ/status/757959990359523328) from 
+[Uwy](https://github.com/Uwy) and thought it'd be a tasty little meme morsel to
+actually build with a tokenizer I have lying around.
+
+Basically Brainf**k but with a special `*w*` token for single-line comments.
+
 ```
 uwu uwu uwu uwu uwu uwu uwu uwu uwu uwu ow< >w> uwu uwu uwu uwu uwu uwu uwu >w> *w* Comment!
 uwu uwu uwu uwu uwu uwu uwu uwu uwu uwu >w> uwu uwu uwu >w> uwu <w< <w< <w< <w< 
