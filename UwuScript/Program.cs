@@ -29,7 +29,7 @@ namespace UwuScript
             }
 
             // Tokenize source.
-            var tokens = tokenizer.Tokenize(File.ReadAllText(filepath));
+            var tokens = tokenizer.Tokenize(File.ReadAllText(filepath) + "\r\n");
 
             // Execute program.
             var machine = new TuringMachine(tokens);
